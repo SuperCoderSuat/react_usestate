@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  background-color: gray;
+  padding: 50px;
+}
+
+input {
+  height: 1.5rem;
+}
+
+p {
+  padding: 20px 0 0 0;
+}
