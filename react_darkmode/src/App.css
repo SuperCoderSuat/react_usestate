@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: sans-serif;
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -13,9 +17,25 @@ section {
 
 p {
   text-align: center;
+  font-size: 4rem;
+  padding: 25px;
+  font-weight: bold;
 }
 
 .dark {
   background-color: rgb(45, 45, 45);
   color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 150px;
 }
